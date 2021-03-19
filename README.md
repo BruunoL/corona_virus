@@ -1,2 +1,24 @@
 # corona_virus-vue
-Projeto feito em VueJS que pega as informações atualizadas dos casos de COVID19 nos estados Brasileiros e em todos os países do mundo.
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
