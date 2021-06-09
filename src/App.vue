@@ -1,27 +1,39 @@
 <template>
   <div id="app">
-    <h1>Casos de Corona Vírus</h1>
-    <div class="corona_box">
-      <Box typeBox="state"></Box>  
-      <Box typeBox="countrie"></Box>      
-    </div>
+    <main>
+      <h1>Casos de Corona Vírus</h1>
+      <div class="corona_box">
+        <Box typeBox="state"></Box>  
+        <Box typeBox="countrie"></Box>      
+      </div>
+    </main>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Box from './components/Box.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Box
+    Box,
+    Footer
   }
 }
 </script>
 
 <style>
+@font-face {
+    font-family: 'Saira Condensed';
+    src: url('assets/fonts/SairaCondensed-Regular.ttf') format('truetype');
+}
+
 body {
-    font-family: 'Saira Condensed',sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #app h1 {
@@ -38,7 +50,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
 }
