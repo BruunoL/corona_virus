@@ -54,4 +54,9 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
+.zoom:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
 </style>
